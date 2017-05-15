@@ -1,0 +1,1171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: STI\n"
+"POT-Creation-Date: 2013-11-05 22:02+0100\n"
+"PO-Revision-Date: 2013-11-05 22:04+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\sti_uniurb_it\\wp-content\\themes\\sti"
+"\\library\\translation\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../404.php:13
+msgid "Epic 404 - Article Not Found"
+msgstr ""
+
+#: ../../404.php:19
+msgid ""
+"The article you were looking for was not found, but maybe try looking again!"
+msgstr ""
+
+#: ../../404.php:31
+msgid "This is the 404.php template."
+msgstr ""
+
+#: ../../archive-bulletin_board.php:8 ../../library/bulletin_board.php:8
+msgid "Bacheca"
+msgstr ""
+
+#: ../../archive-custom_type.php:19 ../../index.php:17
+#: ../../page-custom.ori.php:23 ../../page-home.php:71 ../../search.php:19
+#: ../../single-custom_type.php:32 ../../taxonomy-custom_cat.php:34
+#: ../../__archive.php:48 ../../__page.php:24 ../../__single.php:17
+msgid "Posted"
+msgstr "Pubblicato il"
+
+#: ../../archive-custom_type.php:19 ../../index.php:17
+#: ../../page-custom.ori.php:23 ../../page-home.php:71 ../../search.php:19
+#: ../../single-custom_type.php:32 ../../taxonomy-custom_cat.php:34
+#: ../../__archive.php:48 ../../__page.php:24 ../../__single.php:17
+msgid "by"
+msgstr "da"
+
+#: ../../archive-custom_type.php:44 ../../archive.php:122 ../../index.php:44
+#: ../../search.php:43 ../../taxonomy-custom_cat.php:59 ../../__archive.php:75
+msgid "&laquo; Older Entries"
+msgstr "&laquo;"
+
+#: ../../archive-custom_type.php:45 ../../archive.php:123 ../../index.php:45
+#: ../../search.php:44 ../../taxonomy-custom_cat.php:60 ../../__archive.php:76
+msgid "Newer Entries &raquo;"
+msgstr "&raquo;"
+
+#: ../../archive-custom_type.php:54 ../../archive.php:132 ../../index.php:54
+#: ../../page-custom.ori.php:47 ../../single-custom_type.php:58
+#: ../../single.php:80 ../../taxonomy-custom_cat.php:69 ../../__archive.php:85
+#: ../../__page.php:51 ../../__single.php:41
+msgid "Oops, Post Not Found!"
+msgstr "Pagina non trovata"
+
+#: ../../archive-custom_type.php:57 ../../archive.php:135 ../../index.php:57
+#: ../../page-custom.ori.php:50 ../../single-custom_type.php:61
+#: ../../single-seminars.php:83 ../../single.php:83
+#: ../../taxonomy-custom_cat.php:72 ../../__archive.php:88 ../../__page.php:54
+#: ../../__single.php:44
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr "404"
+
+#: ../../archive-custom_type.php:60
+msgid "This is the error message in the custom posty type archive template."
+msgstr ""
+
+#: ../../archive-seminars.php:8 ../../library/seminars.php:8
+msgid "Seminari"
+msgstr ""
+
+#: ../../archive.php:9
+msgid "Post Taggati:"
+msgstr ""
+
+#: ../../archive.php:14
+msgid "Posts By Author:"
+msgstr "Post di"
+
+#: ../../archive.php:18 ../../__archive.php:26
+msgid "Daily Archives:"
+msgstr ""
+
+#: ../../archive.php:21 ../../__archive.php:31
+msgid "Monthly Archives:"
+msgstr ""
+
+#: ../../archive.php:24 ../../__archive.php:36
+msgid "Yearly Archives:"
+msgstr ""
+
+#: ../../archive.php:79 ../../single-bulletin_board.php:22 ../../single.php:22
+#: ../../_bb-archive.php:25
+msgid "Pubblicato il"
+msgstr ""
+
+#: ../../archive.php:80 ../../single-bulletin_board.php:24 ../../single.php:23
+#: ../../_bb-archive.php:27
+msgid "da"
+msgstr ""
+
+#: ../../archive.php:83 ../../index.php:17 ../../search.php:19
+#: ../../single-custom_type.php:32 ../../single.php:26
+#: ../../taxonomy-custom_cat.php:34 ../../__archive.php:48
+#: ../../__single.php:17
+msgid "filed under"
+msgstr ""
+
+#: ../../archive.php:86 ../../single.php:29
+msgid "Tag: "
+msgstr ""
+
+#: ../../archive.php:101
+msgid "Continua a leggere..."
+msgstr ""
+
+#: ../../comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../../comments.php:23
+msgid "<span>No</span> Responses"
+msgstr "<span>Nessun</span> Commento"
+
+#: ../../comments.php:23
+msgid "<span>One</span> Response"
+msgstr "<span>Un</span> Commento"
+
+#: ../../comments.php:23
+msgid "<span>%</span> Responses"
+msgstr "<span>%</span> Commenti"
+
+#: ../../comments.php:23
+msgid "to"
+msgstr "a"
+
+#: ../../comments.php:44
+msgid "Comments are closed."
+msgstr ""
+
+#: ../../comments.php:55
+msgid "Leave a Reply"
+msgstr "Lascia un commento"
+
+#: ../../comments.php:55
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Lascia un commento a %s"
+
+#: ../../comments.php:71
+msgid "Logged in as"
+msgstr "Loggato come"
+
+#: ../../comments.php:71
+msgid "Log out"
+msgstr ""
+
+#: ../../comments.php:78
+#: ../../library/acf/core/fields/flexible_content.php:410
+msgid "Name"
+msgstr "Nome"
+
+#: ../../comments.php:79
+msgid "Your Name*"
+msgstr "Il tuo nome*"
+
+#: ../../comments.php:83
+msgid "Mail"
+msgstr ""
+
+#: ../../comments.php:84
+msgid "Your E-Mail*"
+msgstr "La tua e-mail*"
+
+#: ../../comments.php:85
+msgid "(will not be published)"
+msgstr "(non sarà pubblicato)"
+
+#: ../../comments.php:89
+msgid "Website"
+msgstr "Sito web"
+
+#: ../../comments.php:90
+msgid "Got a website?"
+msgstr "Hai un sito web?"
+
+#: ../../comments.php:97
+msgid "Your Comment here..."
+msgstr "Il tuo commento qui..."
+
+#: ../../comments.php:102
+msgid "Submit"
+msgstr "Invia"
+
+#: ../../comments.php:109
+msgid "You can use these tags"
+msgstr "Puoi usare questi tag"
+
+#: ../../footer.php:64
+msgid "Entra"
+msgstr "Enter"
+
+#: ../../functions.php:156
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: ../../functions.php:158
+msgid "(Edit)"
+msgstr ""
+
+#: ../../functions.php:162
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento è in atteso di approvazione."
+
+#: ../../functions.php:179
+msgid "Search for:"
+msgstr "Cerca:"
+
+#: ../../functions.php:252
+msgid "Contenuto non disponibile"
+msgstr ""
+
+#: ../../functions.php:325 ../../functions.php:333
+msgid "Author"
+msgstr "Autore"
+
+#: ../../index.php:60
+msgid "This is the error message in the index.php template."
+msgstr ""
+
+#: ../../page-custom.ori.php:53
+msgid "This is the error message in the page-custom.php template."
+msgstr ""
+
+#: ../../page-home.php:80
+msgid "This is the error message in the page-home.php template."
+msgstr ""
+
+#: ../../page.php:27 ../../single-bulletin_board.php:34
+msgid "404"
+msgstr ""
+
+#: ../../search.php:53
+msgid "Sorry, No Results."
+msgstr "Nessun risultato."
+
+#: ../../search.php:56
+msgid "Try your search again."
+msgstr "Riprova a cercare ancora."
+
+#: ../../search.php:59
+msgid "This is the error message in the search.php template."
+msgstr ""
+
+#: ../../single-bulletin_board.php:8
+msgid "Annuncio in bacheca"
+msgstr ""
+
+#: ../../single-bulletin_board.php:27 ../../_bb-archive.php:30
+msgid "Scadenza"
+msgstr ""
+
+#: ../../single-custom_type.php:64
+msgid "This is the error message in the single-custom_type.php template."
+msgstr ""
+
+#: ../../single-seminars.php:20
+msgid "Seminario del"
+msgstr ""
+
+#: ../../single-seminars.php:33
+msgid "Relatore"
+msgstr ""
+
+#: ../../single-seminars.php:38
+msgid "Docente di riferimento"
+msgstr ""
+
+#: ../../single-seminars.php:43
+msgid "Vincoli di partecipazione"
+msgstr ""
+
+#: ../../single-seminars.php:48
+msgid "Date"
+msgstr ""
+
+#: ../../single-seminars.php:53
+msgid "Luogo"
+msgstr ""
+
+#: ../../single-seminars.php:54
+msgid "Data"
+msgstr ""
+
+#: ../../single-seminars.php:55
+msgid "Orario"
+msgstr ""
+
+#: ../../single-seminars.php:56
+msgid "Crediti (CFU)"
+msgstr ""
+
+#: ../../single.php:86 ../../__single.php:47
+msgid "This is the error message in the single.php template."
+msgstr ""
+
+#: ../../taxonomy-custom_cat.php:24 ../../__archive.php:11
+msgid "Posts Categorized:"
+msgstr ""
+
+#: ../../taxonomy-custom_cat.php:75
+msgid "This is the error message in the taxonomy-custom_cat.php template."
+msgstr ""
+
+#: ../../_bb-archive.php:43
+msgid "Non ci sono annunci!"
+msgstr ""
+
+#: ../../_bb-last.php:32
+msgid "Non ci sono annunci"
+msgstr ""
+
+#: ../../__archive.php:16
+msgid "Posts Tagged:"
+msgstr ""
+
+#: ../../__archive.php:21
+msgid "Posts By:"
+msgstr ""
+
+#: ../../__archive.php:91
+msgid "This is the error message in the archive.php template."
+msgstr ""
+
+#: ../../__page.php:57
+msgid "This is the error message in the page.php template."
+msgstr ""
+
+#: ../../library/bones.php:205
+msgid "The Main Menu"
+msgstr ""
+
+#: ../../library/bones.php:364
+msgid "Read more &raquo"
+msgstr "Leggi &raquo"
+
+#: ../../library/bulletin_board.php:9
+msgid "Annuncio"
+msgstr ""
+
+#: ../../library/bulletin_board.php:10
+msgid "Tutti gli annunci"
+msgstr ""
+
+#: ../../library/bulletin_board.php:11 ../../library/bulletin_board.php:15
+#: ../../library/seminars.php:11 ../../library/seminars.php:15
+msgid "Aggiungi nuovo"
+msgstr ""
+
+#: ../../library/bulletin_board.php:12
+msgid "Aggiungi nuovo annuncio"
+msgstr ""
+
+#: ../../library/bulletin_board.php:13 ../../library/seminars.php:13
+msgid "Modifica"
+msgstr ""
+
+#: ../../library/bulletin_board.php:14
+msgid "Modifica annuncio"
+msgstr ""
+
+#: ../../library/bulletin_board.php:16 ../../library/seminars.php:16
+msgid "Vedi"
+msgstr ""
+
+#: ../../library/bulletin_board.php:17 ../../library/seminars.php:17
+msgid "Cerca"
+msgstr ""
+
+#: ../../library/bulletin_board.php:18 ../../library/seminars.php:18
+msgid "Non trovato."
+msgstr ""
+
+#: ../../library/bulletin_board.php:19 ../../library/seminars.php:19
+msgid "Cestino vuoto"
+msgstr ""
+
+#: ../../library/seminars.php:9
+msgid "Seminario"
+msgstr ""
+
+#: ../../library/seminars.php:10
+msgid "Tutti i seminari"
+msgstr ""
+
+#: ../../library/seminars.php:12
+msgid "Aggiungi nuovo seminari"
+msgstr ""
+
+#: ../../library/seminars.php:14
+msgid "Modifica seminari"
+msgstr ""
+
+#: ../../library/acf/acf-lite.php:63
+msgid "Options"
+msgstr ""
+
+#: ../../library/acf/acf-lite.php:557
+msgid "Error: Field Type does not exist!"
+msgstr ""
+
+#: ../../library/acf/acf-lite.php:1120
+msgid "Thumbnail"
+msgstr ""
+
+#: ../../library/acf/acf-lite.php:1121
+msgid "Medium"
+msgstr ""
+
+#: ../../library/acf/acf-lite.php:1122
+msgid "Large"
+msgstr ""
+
+#: ../../library/acf/acf-lite.php:1123
+msgid "Full"
+msgstr ""
+
+#: ../../library/acf/core/controllers/input.php:563
+msgid "Validation Failed. One or more fields below are required."
+msgstr ""
+
+#: ../../library/acf/core/controllers/input.php:565
+msgid "Maximum values reached ( {max} values )"
+msgstr ""
+
+#: ../../library/acf/core/controllers/input.php:575
+msgid "Add Image to Gallery"
+msgstr ""
+
+#: ../../library/acf/core/controllers/input.php:576
+msgid "Edit Image"
+msgstr ""
+
+#: ../../library/acf/core/controllers/options_page.php:130
+msgid "Options Updated"
+msgstr ""
+
+#: ../../library/acf/core/controllers/options_page.php:268
+msgid "No Custom Field Group found for the options page"
+msgstr ""
+
+#: ../../library/acf/core/controllers/options_page.php:268
+msgid "Create a Custom Field Group"
+msgstr ""
+
+#: ../../library/acf/core/controllers/options_page.php:279
+msgid "Publish"
+msgstr ""
+
+#: ../../library/acf/core/controllers/options_page.php:283
+msgid "Save Options"
+msgstr ""
+
+#: ../../library/acf/core/fields/checkbox.php:21
+msgid "Checkbox"
+msgstr ""
+
+#: ../../library/acf/core/fields/checkbox.php:55
+#: ../../library/acf/core/fields/radio.php:50
+#: ../../library/acf/core/fields/select.php:59
+msgid "No choices to choose from"
+msgstr ""
+
+#: ../../library/acf/core/fields/checkbox.php:113
+#: ../../library/acf/core/fields/radio.php:119
+#: ../../library/acf/core/fields/select.php:185
+msgid "Choices"
+msgstr ""
+
+#: ../../library/acf/core/fields/checkbox.php:114
+#: ../../library/acf/core/fields/radio.php:120
+#: ../../library/acf/core/fields/select.php:186
+msgid "Enter your choices one per line"
+msgstr ""
+
+#: ../../library/acf/core/fields/checkbox.php:116
+#: ../../library/acf/core/fields/radio.php:122
+#: ../../library/acf/core/fields/select.php:188
+msgid "Red"
+msgstr ""
+
+#: ../../library/acf/core/fields/checkbox.php:117
+#: ../../library/acf/core/fields/radio.php:123
+#: ../../library/acf/core/fields/select.php:189
+msgid "Blue"
+msgstr ""
+
+#: ../../library/acf/core/fields/checkbox.php:119
+#: ../../library/acf/core/fields/radio.php:125
+#: ../../library/acf/core/fields/select.php:191
+msgid "red : Red"
+msgstr ""
+
+#: ../../library/acf/core/fields/checkbox.php:120
+#: ../../library/acf/core/fields/radio.php:126
+#: ../../library/acf/core/fields/select.php:192
+msgid "blue : Blue"
+msgstr ""
+
+#: ../../library/acf/core/fields/color_picker.php:21
+msgid "Color Picker"
+msgstr ""
+
+#: ../../library/acf/core/fields/color_picker.php:67
+#: ../../library/acf/core/fields/number.php:65
+#: ../../library/acf/core/fields/radio.php:144
+#: ../../library/acf/core/fields/select.php:208
+#: ../../library/acf/core/fields/text.php:65
+#: ../../library/acf/core/fields/textarea.php:64
+#: ../../library/acf/core/fields/wysiwyg.php:114
+msgid "Default Value"
+msgstr ""
+
+#: ../../library/acf/core/fields/color_picker.php:68
+msgid "eg: #ffffff"
+msgstr ""
+
+#: ../../library/acf/core/fields/file.php:21
+msgid "File"
+msgstr ""
+
+#: ../../library/acf/core/fields/file.php:50
+msgid "File Updated."
+msgstr ""
+
+#: ../../library/acf/core/fields/file.php:169
+#: ../../library/acf/core/fields/flexible_content.php:466
+#: ../../library/acf/core/fields/gallery.php:223
+#: ../../library/acf/core/fields/gallery.php:274
+#: ../../library/acf/core/fields/image.php:166
+#: ../../library/acf/core/fields/repeater.php:357
+msgid "Edit"
+msgstr ""
+
+#: ../../library/acf/core/fields/file.php:170
+#: ../../library/acf/core/fields/gallery.php:222
+#: ../../library/acf/core/fields/gallery.php:273
+#: ../../library/acf/core/fields/image.php:165
+msgid "Remove"
+msgstr ""
+
+#: ../../library/acf/core/fields/file.php:177
+msgid "No File Selected"
+msgstr ""
+
+#: ../../library/acf/core/fields/file.php:177
+msgid "Add File"
+msgstr ""
+
+#: ../../library/acf/core/fields/file.php:210
+#: ../../library/acf/core/fields/image.php:202
+msgid "Return Value"
+msgstr ""
+
+#: ../../library/acf/core/fields/file.php:221
+msgid "File Object"
+msgstr ""
+
+#: ../../library/acf/core/fields/file.php:222
+msgid "File URL"
+msgstr ""
+
+#: ../../library/acf/core/fields/file.php:223
+msgid "File ID"
+msgstr ""
+
+#: ../../library/acf/core/fields/file.php:263
+#: ../../library/acf/core/fields/image.php:274
+msgid "Media attachment updated."
+msgstr ""
+
+#: ../../library/acf/core/fields/file.php:421
+msgid "No files selected"
+msgstr ""
+
+#: ../../library/acf/core/fields/file.php:562
+msgid "Add Selected Files"
+msgstr ""
+
+#: ../../library/acf/core/fields/file.php:595
+msgid "Select File"
+msgstr ""
+
+#: ../../library/acf/core/fields/file.php:598
+msgid "Update File"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:21
+msgid "Flexible Content"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:41
+msgid "+ Add Row"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:337
+#: ../../library/acf/core/fields/repeater.php:48
+#: ../../library/acf/core/fields/repeater.php:289
+msgid "Add Row"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:372
+#: ../../library/acf/core/fields/repeater.php:303
+msgid "New Field"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:373
+#: ../../library/acf/core/fields/repeater.php:304
+msgid "new_field"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:382
+#: ../../library/acf/core/fields/radio.php:160
+#: ../../library/acf/core/fields/repeater.php:527
+msgid "Layout"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:384
+msgid "Reorder Layout"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:384
+msgid "Reorder"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:385
+msgid "Delete Layout"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:385
+#: ../../library/acf/core/fields/flexible_content.php:469
+#: ../../library/acf/core/fields/repeater.php:360
+msgid "Delete"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:389
+msgid "Add New Layout"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:389
+msgid "Add New"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:390
+msgid "Duplicate Layout"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:390
+#: ../../library/acf/core/fields/flexible_content.php:468
+#: ../../library/acf/core/fields/repeater.php:359
+msgid "Duplicate"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:400
+msgid "Label"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:420
+msgid "Display"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:427
+#: ../../library/acf/core/fields/repeater.php:538
+msgid "Row"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:428
+msgid "Table"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:441
+#: ../../library/acf/core/fields/repeater.php:332
+msgid "Field Order"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:442
+#: ../../library/acf/core/fields/flexible_content.php:484
+#: ../../library/acf/core/fields/repeater.php:333
+#: ../../library/acf/core/fields/repeater.php:376
+msgid "Field Label"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:443
+#: ../../library/acf/core/fields/flexible_content.php:500
+#: ../../library/acf/core/fields/repeater.php:334
+#: ../../library/acf/core/fields/repeater.php:392
+msgid "Field Name"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:444
+#: ../../library/acf/core/fields/flexible_content.php:515
+#: ../../library/acf/core/fields/repeater.php:335
+#: ../../library/acf/core/fields/repeater.php:407
+msgid "Field Type"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:452
+#: ../../library/acf/core/fields/repeater.php:343
+msgid ""
+"No fields. Click the \"+ Add Sub Field button\" to create your first field."
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:463
+#: ../../library/acf/core/fields/flexible_content.php:466
+#: ../../library/acf/core/fields/repeater.php:354
+#: ../../library/acf/core/fields/repeater.php:357
+msgid "Edit this Field"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:467
+#: ../../library/acf/core/fields/repeater.php:358
+msgid "Read documentation for this field"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:467
+#: ../../library/acf/core/fields/repeater.php:358
+msgid "Docs"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:468
+#: ../../library/acf/core/fields/repeater.php:359
+msgid "Duplicate this Field"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:469
+#: ../../library/acf/core/fields/repeater.php:360
+msgid "Delete this Field"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:485
+#: ../../library/acf/core/fields/repeater.php:377
+msgid "This is the name which will appear on the EDIT page"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:501
+#: ../../library/acf/core/fields/repeater.php:393
+msgid "Single word, no spaces. Underscores and dashes allowed"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:529
+#: ../../library/acf/core/fields/repeater.php:421
+msgid "Field Instructions"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:549
+#: ../../library/acf/core/fields/repeater.php:441
+msgid "Column Width"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:550
+#: ../../library/acf/core/fields/repeater.php:442
+msgid "Leave blank for auto"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:579
+#: ../../library/acf/core/fields/repeater.php:471
+msgid "Save Field"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:584
+#: ../../library/acf/core/fields/repeater.php:476
+msgid "Close Field"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:584
+#: ../../library/acf/core/fields/repeater.php:476
+msgid "Close Sub Field"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:598
+#: ../../library/acf/core/fields/repeater.php:491
+msgid "Drag and drop to reorder"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:599
+#: ../../library/acf/core/fields/repeater.php:492
+msgid "+ Add Sub Field"
+msgstr ""
+
+#: ../../library/acf/core/fields/flexible_content.php:606
+#: ../../library/acf/core/fields/repeater.php:546
+msgid "Button Label"
+msgstr ""
+
+#: ../../library/acf/core/fields/gallery.php:25
+msgid "Gallery"
+msgstr ""
+
+#: ../../library/acf/core/fields/gallery.php:113
+#: ../../library/acf/core/fields/image.php:222
+msgid "Preview Size"
+msgstr ""
+
+#: ../../library/acf/core/fields/gallery.php:114
+msgid "Thumbnail is advised"
+msgstr ""
+
+#: ../../library/acf/core/fields/gallery.php:151
+msgid "Image Updated"
+msgstr ""
+
+#: ../../library/acf/core/fields/gallery.php:201
+#: ../../library/acf/core/fields/gallery.php:252
+msgid "Title"
+msgstr ""
+
+#: ../../library/acf/core/fields/gallery.php:205
+#: ../../library/acf/core/fields/gallery.php:256
+msgid "Alternate Text"
+msgstr ""
+
+#: ../../library/acf/core/fields/gallery.php:209
+#: ../../library/acf/core/fields/gallery.php:260
+msgid "Caption"
+msgstr ""
+
+#: ../../library/acf/core/fields/gallery.php:213
+#: ../../library/acf/core/fields/gallery.php:264
+msgid "Description"
+msgstr ""
+
+#: ../../library/acf/core/fields/gallery.php:234
+#: ../../library/acf/core/fields/gallery.php:667
+#: ../../library/acf/core/fields/image.php:172
+msgid "Add Image"
+msgstr ""
+
+#: ../../library/acf/core/fields/gallery.php:235
+msgid "Grid"
+msgstr ""
+
+#: ../../library/acf/core/fields/gallery.php:236
+msgid "List"
+msgstr ""
+
+#: ../../library/acf/core/fields/gallery.php:238
+#: ../../library/acf/core/fields/image.php:425
+msgid "No images selected"
+msgstr ""
+
+#: ../../library/acf/core/fields/gallery.php:238
+msgid "1 image selected"
+msgstr ""
+
+#: ../../library/acf/core/fields/gallery.php:238
+msgid "{count} images selected"
+msgstr ""
+
+#: ../../library/acf/core/fields/gallery.php:590
+msgid "Added"
+msgstr ""
+
+#: ../../library/acf/core/fields/gallery.php:610
+msgid "Image already exists in gallery"
+msgstr ""
+
+#: ../../library/acf/core/fields/gallery.php:670
+#: ../../library/acf/core/fields/image.php:599
+msgid "Update Image"
+msgstr ""
+
+#: ../../library/acf/core/fields/image.php:21
+msgid "Image"
+msgstr ""
+
+#: ../../library/acf/core/fields/image.php:53
+msgid "Image Updated."
+msgstr ""
+
+#: ../../library/acf/core/fields/image.php:172
+msgid "No image selected"
+msgstr ""
+
+#: ../../library/acf/core/fields/image.php:212
+msgid "Image Object"
+msgstr ""
+
+#: ../../library/acf/core/fields/image.php:213
+msgid "Image URL"
+msgstr ""
+
+#: ../../library/acf/core/fields/image.php:214
+msgid "Image ID"
+msgstr ""
+
+#: ../../library/acf/core/fields/image.php:567
+msgid "Add Selected Images"
+msgstr ""
+
+#: ../../library/acf/core/fields/image.php:596
+msgid "Select Image"
+msgstr ""
+
+#: ../../library/acf/core/fields/number.php:21
+msgid "Number"
+msgstr ""
+
+#: ../../library/acf/core/fields/page_link.php:21
+msgid "Page Link"
+msgstr ""
+
+#: ../../library/acf/core/fields/page_link.php:70
+#: ../../library/acf/core/fields/post_object.php:237
+#: ../../library/acf/core/fields/relationship.php:416
+#: ../../library/acf/core/fields/_post_object.php:236
+#: ../../library/acf/core/fields/_relationship.php:400
+msgid "Post Type"
+msgstr ""
+
+#: ../../library/acf/core/fields/page_link.php:76
+#: ../../library/acf/core/fields/post_object.php:243
+#: ../../library/acf/core/fields/post_object.php:267
+#: ../../library/acf/core/fields/relationship.php:422
+#: ../../library/acf/core/fields/relationship.php:451
+#: ../../library/acf/core/fields/_post_object.php:242
+#: ../../library/acf/core/fields/_post_object.php:266
+#: ../../library/acf/core/fields/_relationship.php:406
+#: ../../library/acf/core/fields/_relationship.php:435
+msgid "All"
+msgstr ""
+
+#: ../../library/acf/core/fields/page_link.php:94
+#: ../../library/acf/core/fields/post_object.php:286
+#: ../../library/acf/core/fields/select.php:222
+#: ../../library/acf/core/fields/_post_object.php:285
+msgid "Allow Null?"
+msgstr ""
+
+#: ../../library/acf/core/fields/page_link.php:104
+#: ../../library/acf/core/fields/page_link.php:125
+#: ../../library/acf/core/fields/post_object.php:296
+#: ../../library/acf/core/fields/post_object.php:317
+#: ../../library/acf/core/fields/select.php:231
+#: ../../library/acf/core/fields/select.php:250
+#: ../../library/acf/core/fields/wysiwyg.php:170
+#: ../../library/acf/core/fields/wysiwyg.php:191
+#: ../../library/acf/core/fields/_post_object.php:295
+#: ../../library/acf/core/fields/_post_object.php:316
+msgid "Yes"
+msgstr ""
+
+#: ../../library/acf/core/fields/page_link.php:105
+#: ../../library/acf/core/fields/page_link.php:126
+#: ../../library/acf/core/fields/post_object.php:297
+#: ../../library/acf/core/fields/post_object.php:318
+#: ../../library/acf/core/fields/select.php:232
+#: ../../library/acf/core/fields/select.php:251
+#: ../../library/acf/core/fields/wysiwyg.php:171
+#: ../../library/acf/core/fields/wysiwyg.php:192
+#: ../../library/acf/core/fields/_post_object.php:296
+#: ../../library/acf/core/fields/_post_object.php:317
+msgid "No"
+msgstr ""
+
+#: ../../library/acf/core/fields/page_link.php:115
+#: ../../library/acf/core/fields/post_object.php:307
+#: ../../library/acf/core/fields/select.php:241
+#: ../../library/acf/core/fields/_post_object.php:306
+msgid "Select multiple values?"
+msgstr ""
+
+#: ../../library/acf/core/fields/post_object.php:21
+#: ../../library/acf/core/fields/_post_object.php:21
+msgid "Post Object"
+msgstr ""
+
+#: ../../library/acf/core/fields/post_object.php:261
+#: ../../library/acf/core/fields/relationship.php:445
+#: ../../library/acf/core/fields/_post_object.php:260
+#: ../../library/acf/core/fields/_relationship.php:429
+msgid "Filter from Taxonomy"
+msgstr ""
+
+#: ../../library/acf/core/fields/radio.php:21
+msgid "Radio Button"
+msgstr ""
+
+#: ../../library/acf/core/fields/radio.php:171
+msgid "Vertical"
+msgstr ""
+
+#: ../../library/acf/core/fields/radio.php:172
+msgid "Horizontal"
+msgstr ""
+
+#: ../../library/acf/core/fields/relationship.php:21
+#: ../../library/acf/core/fields/_relationship.php:21
+msgid "Relationship"
+msgstr ""
+
+#: ../../library/acf/core/fields/relationship.php:310
+#: ../../library/acf/core/fields/_relationship.php:294
+msgid "Search"
+msgstr ""
+
+#: ../../library/acf/core/fields/relationship.php:468
+#: ../../library/acf/core/fields/_relationship.php:452
+msgid "Maximum posts"
+msgstr ""
+
+#: ../../library/acf/core/fields/repeater.php:21
+msgid "Repeater"
+msgstr ""
+
+#: ../../library/acf/core/fields/repeater.php:324
+msgid "Repeater Fields"
+msgstr ""
+
+#: ../../library/acf/core/fields/repeater.php:499
+msgid "Minimum Rows"
+msgstr ""
+
+#: ../../library/acf/core/fields/repeater.php:513
+msgid "Maximum Rows"
+msgstr ""
+
+#: ../../library/acf/core/fields/repeater.php:537
+msgid "Table (default)"
+msgstr ""
+
+#: ../../library/acf/core/fields/select.php:21
+msgid "Select"
+msgstr ""
+
+#: ../../library/acf/core/fields/tab.php:21
+msgid "Tab"
+msgstr ""
+
+#: ../../library/acf/core/fields/tab.php:57
+msgid "Instructions"
+msgstr ""
+
+#: ../../library/acf/core/fields/tab.php:60
+msgid ""
+"All fields proceeding this \"tab field\" (or until another \"tab field\"  is "
+"defined) will appear grouped on the edit screen."
+msgstr ""
+
+#: ../../library/acf/core/fields/tab.php:61
+msgid "You can use multiple tabs to break up your fields into sections."
+msgstr ""
+
+#: ../../library/acf/core/fields/text.php:21
+msgid "Text"
+msgstr ""
+
+#: ../../library/acf/core/fields/text.php:79
+#: ../../library/acf/core/fields/textarea.php:78
+msgid "Formatting"
+msgstr ""
+
+#: ../../library/acf/core/fields/text.php:80
+msgid "Define how to render html tags"
+msgstr ""
+
+#: ../../library/acf/core/fields/text.php:89
+#: ../../library/acf/core/fields/textarea.php:88
+msgid "None"
+msgstr ""
+
+#: ../../library/acf/core/fields/text.php:90
+#: ../../library/acf/core/fields/textarea.php:90
+msgid "HTML"
+msgstr ""
+
+#: ../../library/acf/core/fields/textarea.php:21
+msgid "Text Area"
+msgstr ""
+
+#: ../../library/acf/core/fields/textarea.php:79
+msgid "Define how to render html tags / new lines"
+msgstr ""
+
+#: ../../library/acf/core/fields/textarea.php:89
+msgid "auto &lt;br /&gt;"
+msgstr ""
+
+#: ../../library/acf/core/fields/true_false.php:21
+msgid "True / False"
+msgstr ""
+
+#: ../../library/acf/core/fields/true_false.php:68
+msgid "Message"
+msgstr ""
+
+#: ../../library/acf/core/fields/true_false.php:69
+msgid "eg. Show extra content"
+msgstr ""
+
+#: ../../library/acf/core/fields/wysiwyg.php:21
+msgid "Wysiwyg Editor"
+msgstr ""
+
+#: ../../library/acf/core/fields/wysiwyg.php:128
+msgid "Toolbar"
+msgstr ""
+
+#: ../../library/acf/core/fields/wysiwyg.php:160
+msgid "Show Media Upload Buttons?"
+msgstr ""
+
+#: ../../library/acf/core/fields/wysiwyg.php:179
+msgid "Run filter \"the_content\"?"
+msgstr ""
+
+#: ../../library/acf/core/fields/wysiwyg.php:180
+msgid "Enable this filter to use shortcodes within the WYSIWYG field"
+msgstr ""
+
+#: ../../library/acf/core/fields/wysiwyg.php:181
+msgid ""
+"Disable this filter if you encounter recursive template problems with "
+"plugins / themes"
+msgstr ""
+
+#: ../../library/acf/core/fields/date_picker/date_picker.php:21
+msgid "Date Picker"
+msgstr ""
+
+#: ../../library/acf/core/fields/date_picker/date_picker.php:89
+msgid "Save format"
+msgstr ""
+
+#: ../../library/acf/core/fields/date_picker/date_picker.php:90
+msgid ""
+"This format will determin the value saved to the database and returned via "
+"the API"
+msgstr ""
+
+#: ../../library/acf/core/fields/date_picker/date_picker.php:91
+msgid "\"yymmdd\" is the most versatile save format. Read more about"
+msgstr ""
+
+#: ../../library/acf/core/fields/date_picker/date_picker.php:91
+#: ../../library/acf/core/fields/date_picker/date_picker.php:101
+msgid "jQuery date formats"
+msgstr ""
+
+#: ../../library/acf/core/fields/date_picker/date_picker.php:99
+msgid "Display format"
+msgstr ""
+
+#: ../../library/acf/core/fields/date_picker/date_picker.php:100
+msgid "This format will be seen by the user when entering a value"
+msgstr ""
+
+#: ../../library/acf/core/fields/date_picker/date_picker.php:101
+msgid ""
+"\"dd/mm/yy\" or \"mm/dd/yy\" are the most used display formats. Read more "
+"about"
+msgstr ""

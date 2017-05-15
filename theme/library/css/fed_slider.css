@@ -1,0 +1,28 @@
+#fed_slider {
+    width: 610px;
+    height: 297px;
+    margin: 0 0 0 -15px;
+    padding: 0 15px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    text-align: left;
+    /*background: #fff url("../../../../../assets/bg1.gif") repeat;*/
+    background-color: #fff;
+}
+#fed_slider div { padding: 0; text-align: center; position: absolute; }
+#fed_slider .text { background-image: none !important; background-color: #333; color: #fff; text-align: left; }
+#fed_slider .text p { padding: 8px 8px; font-family: Arial; font-size: 14px; }
+#fed_slider .text a { color: #fff; }
+#fed_slider .text a:hover { color: #eee; }
+#fed_slider .link { cursor: pointer; }
+
+/*
+#fed_slider #fed_slider_2 .text { background-color: #f7f7f7; color: #333; }
+#fed_slider #fed_slider_2 .text span { display: inline; background-color: #ccc; padding: 0; }
+*/
+
+
+#fed_slider_text { position: relative; width: 290px; }
+#fed_slider_text div { position: absolute; }
+

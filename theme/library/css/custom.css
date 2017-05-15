@@ -1,0 +1,63 @@
+/* MENU */
+
+/* Rosso */
+/*
+#menu-item-224 a {
+    color: #d33;
+}
+#menu-item-224:hover a {
+    color: #fff; background-color: #b22;
+}
+*/
+
+/* Arancione: */
+
+#menu-item-3906 a,
+#menu-item-3912 a,
+#menu-item-3909 a,
+#menu-item-3050 a,
+#menu-item-3051 a,
+#menu-item-3055 a,
+#menu-item-3056 a,
+#menu-item-3137 a,
+#menu-item-3138 a,
+#menu-item-3434 a,
+#menu-item-4040 > a,
+#menu-item-3438 a,
+#menu-item-4542 a,
+#menu-item-4668 a,
+#menu-item-4665 a,
+#menu-item-4666 a,
+#menu-item-4667 a,
+#menu-item-4041 a,
+#menu-item-4046 a,
+#menu-item-4669 a {
+    color: #f61;
+}
+#menu-item-3906:hover a,
+#menu-item-3912:hover a,
+#menu-item-3909:hover a,
+#menu-item-3050:hover a,
+#menu-item-3051:hover a,
+#menu-item-3055:hover a,
+#menu-item-3056:hover a,
+#menu-item-3137:hover a,
+#menu-item-3138:hover a,
+#menu-item-3434:hover a,
+#menu-item-4040:hover > a,
+#menu-item-3438:hover a,
+#menu-item-4542:hover a,
+#menu-item-4668:hover a,
+#menu-item-4665:hover a,
+#menu-item-4542:hover a,
+#menu-item-4542:hover a,
+#menu-item-4041:hover a,
+#menu-item-4046:hover a,
+#menu-item-4669:hover a {
+    color: #fff; background-color: #d25810;
+}
+
+.page-id-106 .page-title span,
+.post-type-archive-bulletin_board .page-title span {
+    display: inline;
+}
