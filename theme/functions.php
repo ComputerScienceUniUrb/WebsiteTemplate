@@ -45,6 +45,8 @@ require_once('library/bones.php'); // if you remove this, bones will break
 */
  require_once('library/translation/translation.php'); // this comes turned off by default
 
+remove_action('wp_head', 'wp_generator');
+
 /************* THUMBNAIL SIZE OPTIONS *************/
 
 // Thumbnail sizes
