@@ -18,7 +18,19 @@
         <meta name="MobileOptimized" content="320">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-        <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
+        <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicons/favicon.ico"> 
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?php echo get_template_directory_uri(); ?>/favicons/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/favicons/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/favicons/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo get_template_directory_uri(); ?>/favicons/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="<?php echo get_template_directory_uri(); ?>/favicons/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="<?php echo get_template_directory_uri(); ?>/favicons/apple-touch-icon-152x152.png" />
+        <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicons/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicons/favicon-16x16.png" sizes="16x16" />
+        <meta name="application-name" content="Informatica Applicata"/>
+        <meta name="msapplication-TileColor" content="#169D58" />
+        <meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/faviconsmstile-144x144.png" />
+        <meta name="msapplication-notification" content="frequency=30;polling-uri=http://notifications.buildmypinnedsite.com/?feed=http://informatica.uniurb.it/feed/&amp;id=1;polling-uri2=http://notifications.buildmypinnedsite.com/?feed=http://informatica.uniurb.it/feed/&amp;id=2;polling-uri3=http://notifications.buildmypinnedsite.com/?feed=http://informatica.uniurb.it/feed/&amp;id=3;polling-uri4=http://notifications.buildmypinnedsite.com/?feed=http://informatica.uniurb.it/feed/&amp;id=4;polling-uri5=http://notifications.buildmypinnedsite.com/?feed=http://informatica.uniurb.it/feed/&amp;id=5;cycle=1" />
 
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
