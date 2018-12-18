@@ -34,7 +34,7 @@
 
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300' rel='stylesheet' type='text/css'>
         
         <script type="text/javascript">
             var home_url = '<?php echo home_url() ?>';
