@@ -30,7 +30,6 @@
         <meta name="application-name" content="Informatica Applicata"/>
         <meta name="msapplication-TileColor" content="#169D58" />
         <meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/faviconsmstile-144x144.png" />
-        <meta name="msapplication-notification" content="frequency=30;polling-uri=http://notifications.buildmypinnedsite.com/?feed=http://informatica.uniurb.it/feed/&amp;id=1;polling-uri2=http://notifications.buildmypinnedsite.com/?feed=http://informatica.uniurb.it/feed/&amp;id=2;polling-uri3=http://notifications.buildmypinnedsite.com/?feed=http://informatica.uniurb.it/feed/&amp;id=3;polling-uri4=http://notifications.buildmypinnedsite.com/?feed=http://informatica.uniurb.it/feed/&amp;id=4;polling-uri5=http://notifications.buildmypinnedsite.com/?feed=http://informatica.uniurb.it/feed/&amp;id=5;cycle=1" />
 
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
@@ -58,8 +57,7 @@
 
               ga('create', 'UA-45219210-1', 'uniurb.it');
               ga('send', 'pageview');
-
-            </script>        
+            </script>
         <?php endif; ?>
         
     </head>
