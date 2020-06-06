@@ -80,7 +80,7 @@ get_header('redux');
 
         <div class="row">
             <div class="six badge triennale">
-                <a href="https://informatica.uniurb.it/">
+                <a href="https://informatica.uniurb.it/triennale/">
                     <div class="image">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/square-informatica-applicata-triennale.jpg" />
                     </div>

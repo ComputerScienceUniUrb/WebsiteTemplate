@@ -105,7 +105,7 @@
 
 
                         <div class="eightcol first">
-                            <a href="<?php echo home_url(); ?>">
+                            <a href="https://informatica.uniurb.it/">
                                 <img id="logo" src="<?php echo home_url('assets/logo_sti_new.png') ?>" alt="Logo">
                             </a>
                         </div>
