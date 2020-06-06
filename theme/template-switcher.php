@@ -27,14 +27,22 @@ get_header('redux');
     height: auto;
     border-radius: 100%;
     box-shadow: 0 2px 12px rgba(100,100,100,0.2);
-    transition: box-shadow 2s ease-out;
+    transform: translateY(-0px);
+    transition: box-shadow 2s ease-out, transform 1s ease-out;
 }
 .badge:hover .image > img {
     box-shadow: 0 2px 36px rgba(100,100,100,0.7);
+    transform: translateY(-8px);
 }
 .badge .subtitle {
     text-align: center;
     font-size: 2.7em;
+    
+    text-shadow: 1px 1px 0 rgba(80,80,80,0.0);
+    transition: text-shadow 1.4s ease-out;
+}
+.badge:hover .subtitle {
+    text-shadow: 1px 1px 6px rgba(80,80,80,0.3);
 }
 .badge a {
     color: gray;
@@ -63,7 +71,10 @@ get_header('redux');
 
         <div id="main" class="twelve first clearfix" role="main">
 
-            <h1>Il tuo percorso</h1>
+            <h1>
+                <b>Informatica Applicata</b><br />
+                Il tuo percorso
+            </h1>
 
         </div>
 
