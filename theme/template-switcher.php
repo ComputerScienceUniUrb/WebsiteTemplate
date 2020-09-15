@@ -1,4 +1,4 @@
-<?php /* Template Name: Version picker */ 
+<?php /* Template Name: Version picker */
 
 get_header('redux');
 ?>
@@ -37,7 +37,7 @@ get_header('redux');
 .badge .subtitle {
     text-align: center;
     font-size: 2.7em;
-    
+
     text-shadow: 1px 1px 0 rgba(80,80,80,0.0);
     transition: text-shadow 1.4s ease-out;
 }
@@ -49,10 +49,10 @@ get_header('redux');
     text-decoration: none;
 }
 .badge.triennale a .subtitle {
-    color: #2db970;
+    color: #fe7d3c;
 }
 .badge.magistrale a .subtitle {
-    color: #f37230;
+    color: #2db970;
 }
 
 @media only screen and (min-width: 768px) {
@@ -82,7 +82,7 @@ get_header('redux');
             <div class="six badge triennale">
                 <a href="https://informatica.uniurb.it/triennale/">
                     <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/square-informatica-applicata-triennale.jpg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/square-informatica-applicata-magistrale.jpg" alt="Corso Triennale in Informatica Applicata" />
                     </div>
                     <div class="subtitle">
                         Triennale
@@ -93,7 +93,7 @@ get_header('redux');
             <div class="six badge magistrale">
             <a href="https://informatica.uniurb.it/magistrale/">
                     <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/square-informatica-applicata-magistrale.jpg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/square-informatica-applicata-triennale.jpg" alt="Corso Magistrale in Informatica Applicata" />
                     </div>
                     <div class="subtitle">
                         Magistrale
