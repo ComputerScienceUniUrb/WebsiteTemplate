@@ -106,7 +106,7 @@ function sti_get_content($atts) {
         if ($res && @$matches[0][1])
             $begin = $matches[0][1];
         else
-            throw new Exception('Error :(');
+            throw new Exception('Contenuto non disponibile. Vedi: <a href="' . $url . '">' . $url . '</a>');
         
         $res = preg_match('/<\/body>/m', $response, $matches, PREG_OFFSET_CAPTURE, $begin);
         

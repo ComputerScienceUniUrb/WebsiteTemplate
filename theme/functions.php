@@ -43,10 +43,10 @@ require_once('library/bones.php'); // if you remove this, bones will break
 4. library/translation/translation.php
     - adding support for other languages
 */
- require_once('library/translation/translation.php'); // this comes turned off by default
+require_once('library/translation/translation.php'); // this comes turned off by default
 
 remove_action('wp_head', 'wp_generator');
-
+ 
 /************* THUMBNAIL SIZE OPTIONS *************/
 
 // Thumbnail sizes
@@ -187,6 +187,9 @@ function bones_wpsearch($form) {
 
 
  require_once ('library/fed_utils.php');
+
+// CUSTOM FIELDS
+// require_once('library/acf.php');
 
 // CUSTOM POST TYPES
 require_once('library/bulletin_board.php');

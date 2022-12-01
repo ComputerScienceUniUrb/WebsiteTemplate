@@ -45,7 +45,7 @@
             #inner-content { padding-top: 125px; }
             .page-template-page-home-php #inner-content { padding-top: 0 !important; }
         </style>
-        <![endif]-->
+        <![endif]-->        
         <?php wp_head(); ?>
 
         <?php if ($_SERVER['HTTP_HOST'] == 'informatica.uniurb.it') : ?>
@@ -84,6 +84,7 @@
                         <div class="fourcol last">
                             
                             <ul class="icons">
+								<li><a href="https://www.instagram.com/infoapplurbino/" title="Instagram"><img src="<?php echo home_url('assets/icons/brands/instagram-20.png') ?>" alt="instagram" /></a></li>
                                 <li><a href="https://www.facebook.com/InformaticaapplicataUniversitaDegliStudiDiUrbino?ref=hl" title="Facebook"><img src="<?php echo home_url('assets/icons/brands/facebook-24.png') ?>" alt="facebook" /></a></li>
                                 <li><a href="https://twitter.com/InfoAppl" title="Twitter"><img src="<?php echo home_url('assets/icons/brands/twitter-24.png') ?>" alt="twitter" /></a></li>
                                 <li><a href="skype:$cdl.informatica?call" title="Skype"><img src="<?php echo home_url('assets/icons/brands/skype-24.png') ?>" alt="skype" /></a></li>
@@ -103,10 +104,9 @@
                         <p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
                     <?php endif; ?>
 
-
                         <div class="eightcol first">
                             <a href="https://informatica.uniurb.it/">
-                                <img id="logo" src="<?php echo home_url('assets/logo_sti_new.png') ?>" alt="Logo">
+                                <img id="logo" src="<?php echo get_template_directory_uri(); ?>/images/cdl_informatica_applicata.png" alt="Logo del Corso di Laurea in Informatica Applicata" />
                             </a>
                         </div>
 

@@ -37,10 +37,10 @@
             <?php endif; ?>
 
             <div class="eightcol first">
-                <p class="attribution">&copy; <?php echo date('Y'); ?></p>
+                <p class="attribution">&copy;&nbsp;<?php echo date('Y'); ?></p>
             </div>
             <div class="fourcol last mf-right">
-                <p id="developer">Theme by <a href="http://www.fedosev.com" title="web developer">Andriy Fedosyeyev</a></p>
+                <p id="developer">Theme by <span style="color: #aaaaaa">Andriy Fedosyeyev</span></p>
             </div>
 
         </div> <!-- end #inner-footer -->

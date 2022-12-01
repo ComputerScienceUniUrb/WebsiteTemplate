@@ -72,10 +72,9 @@
                         <p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
                     <?php endif; ?>
 
-
                         <div class="eightcol first">
                             <a href="<?php echo home_url(); ?>">
-                                <img id="logo" src="<?php echo home_url('assets/logo_sti_new.png') ?>" alt="Logo">
+                                <img id="logo" src="<?php echo get_template_directory_uri(); ?>/images/cdl_informatica_applicata.png" alt="Logo del Corso di Laurea in Informatica Applicata" />
                             </a>
                         </div>
 

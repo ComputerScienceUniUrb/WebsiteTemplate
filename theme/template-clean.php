@@ -30,9 +30,6 @@ h1.h1 {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
 }
-article iframe {
-    
-}
 #main {
     padding: 2em;
     background: #FFF;
