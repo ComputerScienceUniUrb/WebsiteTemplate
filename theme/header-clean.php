@@ -1,4 +1,4 @@
-<!doctype html>  
+<!doctype html>
 
 <!--[if lt IE 7]><html <?php language_attributes(); ?> class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html <?php language_attributes(); ?> class="no-js lt-ie9 lt-ie8"><![endif]-->
@@ -8,7 +8,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title><?php wp_title('|', true, 'right'); echo bloginfo('name'); ?></title>
+        <title><?php wp_title('|', true, 'right'); ?> Università degli Studi di Urbino</title>
 
         <!-- Google Chrome Frame for IE -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -30,8 +30,6 @@
         <meta name="application-name" content="Informatica Applicata"/>
         <meta name="msapplication-TileColor" content="#169D58" />
         <meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/faviconsmstile-144x144.png" />
-
-        <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
         <link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300' rel='stylesheet' type='text/css'>
         
@@ -66,67 +64,3 @@
 
         <div id="container">
 
-            <header class="header" role="banner">
-
-                <div id="top-bar" class="clearfix">
-                    
-                    <div class="wrap">
-                        <div class="eightcol first">
-                            <ul>
-                                <?php if (STI_LANG_MANU) : ?>
-                                    <?php pll_the_languages(); ?>
-                                <?php else : ?>
-                                    <li class="lang-item lang-item-2 lang-item-it current-lang"><a hreflang="it" href="/">Italiano</a></li>
-                                <?php endif; ?>
-                            </ul>
-                        </div>
-
-                        <div class="fourcol last">
-                            
-                            <ul class="icons">
-                                <li><a href="https://www.facebook.com/InformaticaapplicataUniversitaDegliStudiDiUrbino?ref=hl" title="Facebook"><img src="<?php echo home_url('assets/icons/brands/facebook-24.png') ?>" alt="facebook" /></a></li>
-                                <li><a href="https://twitter.com/InfoAppl" title="Twitter"><img src="<?php echo home_url('assets/icons/brands/twitter-24.png') ?>" alt="twitter" /></a></li>
-                                <li><a href="skype:$cdl.informatica?call" title="Skype"><img src="<?php echo home_url('assets/icons/brands/skype-24.png') ?>" alt="skype" /></a></li>
-                                <li><a href="#" title="Foursquare"><img src="<?php echo home_url('assets/icons/brands/foursquare-24.png') ?>" alt="foursquare" /></a></li>
-                                <li><a href="http://mail.google.com/a/campus.uniurb.it" title="e-mail"><img src="<?php echo home_url('assets/icons/brands/email-24.png') ?>" alt="email" /></a></li>
-                                <li><a href="<?php bloginfo('rss2_url'); ?>" title="RSS"><img src="<?php echo home_url('assets/icons/brands/rss-24.png') ?>" alt="rss" /></a></li>
-                            </ul>
-
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <div id="inner-header" class="wrap clearfix">
-
-                    <?php if (false) : ?>
-                        <p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
-                    <?php endif; ?>
-
-
-                        <div class="eightcol first">
-                            <a href="https://informatica.uniurb.it/">
-                                <img id="logo" src="<?php echo home_url('assets/logo_sti_new.png') ?>" alt="Logo">
-                            </a>
-                        </div>
-
-                        <div class="fourcol last">
-
-                        </div>
-
-                </div> <!-- end #inner-header -->
-
-                
-                <div id="nav-container" class="clearfix">
-                    
-                    <nav role="navigation" class="wrap">
-
-                        <?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
-
-                        <?php //echo get_search_form(); ?>
-
-                    </nav>
-                    
-                </div>
-
-            </header> <!-- end header -->
