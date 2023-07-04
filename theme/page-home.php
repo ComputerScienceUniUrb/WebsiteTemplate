@@ -61,7 +61,7 @@
     <div class="fed-slider-container clearfix">
         <div class="wrap" style="font-size: 0">
             <div class="first">
-                <video style="width: 100%; height: auto" controls autoplay muted width="960" height="540">
+                <video style="width: 100%; height: auto" controls autoplay muted width="960" height="540" poster="https://informatica.uniurb.it/wp-content/uploads/informatica_scienza_e_tecnologia_promo_web.jpg">
                     <source src="https://informatica.uniurb.it/wp-content/uploads/informatica_scienza_e_tecnologia_promo_web.mp4">
                 </video>
             </div>
