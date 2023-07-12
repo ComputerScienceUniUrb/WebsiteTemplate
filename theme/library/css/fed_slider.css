@@ -16,13 +16,5 @@
 #fed_slider .text a { color: #fff; }
 #fed_slider .text a:hover { color: #eee; }
 #fed_slider .link { cursor: pointer; }
-
-/*
-#fed_slider #fed_slider_2 .text { background-color: #f7f7f7; color: #333; }
-#fed_slider #fed_slider_2 .text span { display: inline; background-color: #ccc; padding: 0; }
-*/
-
-
 #fed_slider_text { position: relative; width: 290px; }
 #fed_slider_text div { position: absolute; }
-
