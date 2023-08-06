@@ -97,8 +97,8 @@ get_header('clean');
         <div>Corsi di laurea presso l’<a href="https://www.uniurb.it/">Università degli Studi di Urbino</a>.</div>
         <div>
             Scegli il tuo percorso:<br />
-            <a href="https://informatica.uniurb.it/triennale/">Laurea triennale in Informatica Scienza e Tecnologia</a><br />
-            <a href="https://informatica.uniurb.it/magistrale/">Laurea magistrale in Informatica e Innovazione Digitale</a>
+            <a href="https://informatica.uniurb.it/triennale/">Laurea triennale in Informatica&nbsp;—&nbsp;Scienza e Tecnologia</a><br />
+            <a href="https://informatica.uniurb.it/magistrale/">Laurea magistrale in Informatica e Innovazione&nbsp;Digitale</a>
         </div>
     </div>
 

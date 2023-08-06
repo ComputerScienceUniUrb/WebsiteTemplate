@@ -185,7 +185,6 @@ function bones_wpsearch($form) {
     return $form;
 } // don't remove this bracket!
 
-
  require_once ('library/fed_utils.php');
 
 // CUSTOM FIELDS
@@ -355,5 +354,16 @@ function enqueue_admin_custom_scripts() {
 }
 add_action('admin_enqueue_scripts', 'enqueue_admin_custom_scripts');
 
-
+function infoappl_opengraph() {
 ?>
+
+        <meta property="og:url" content="<?php echo (is_ssl() ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" />
+        <?php if (is_singular() && !is_front_page()) { ?><meta property="og:type" content="article" /><?php } else { ?><meta property="og:type" content="website" /><?php } ?>
+
+        <?php if (is_singular() && !is_front_page()) { ?><meta property="og:title" content="<?php wp_title('|', true, 'right'); ?>Università degli Studi di Urbino" /><?php } else { ?><meta property="og:title" content="Informatica | Università degli Studi di Urbino" /><?php } ?>
+
+        <meta property="og:locale" content="it_IT" />
+        <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/images/opengraph-informatica-uniurb-cover.jpg" />
+
+<?php
+}
