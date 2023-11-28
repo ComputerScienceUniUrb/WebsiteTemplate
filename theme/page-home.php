@@ -10,7 +10,7 @@
 
 <?php
     $slides = null; // get_field('slides');
-    
+
     if (is_array($slides)) {
         $elms = array();
         foreach ($slides as $v) {
@@ -31,7 +31,7 @@
 <div id="content">
 
     <?php if (count(@$elms) > 0) : ?>
-    
+
         <div class="fed-slider-container clearfix">
             <div class="wrap">
                 <div class="eightcol first">
@@ -44,7 +44,7 @@
                             <p><?php echo $elms[$i]['text'] ?></p>
                         </div>
                     <?php endfor; ?>
-                    
+
                     <div class="buttons">
                         <ul>
                             <li class="fed-prev"><img src="<?php echo home_url('assets/icons/109-Left-arrow-Icon.png') ?>"  alt="Previous"></li>
@@ -61,8 +61,8 @@
     <div class="fed-slider-container clearfix">
         <div class="wrap" style="font-size: 0">
             <div class="first">
-                <video style="width: 100%; height: auto" controls autoplay muted width="960" height="540" poster="https://informatica.uniurb.it/wp-content/uploads/informatica_scienza_e_tecnologia_promo_web.jpg">
-                    <source src="https://informatica.uniurb.it/wp-content/uploads/informatica_scienza_e_tecnologia_promo_web.mp4">
+                <video style="width: 100%; height: auto" controls autoplay muted width="960" height="540" poster="wp-content/uploads/informatica_scienza_e_tecnologia_promo_web.jpg">
+                    <source src="wp-content/uploads/informatica_scienza_e_tecnologia_promo_web.mp4">
                 </video>
             </div>
         </div>
@@ -102,12 +102,12 @@
 <?php if (count(@$elms) > 0) : ?>
 
     <script type="text/javascript">
-        
+
             slides = <?php echo json_encode($elms) ?>;
-            
+
             icon_play = '<?php echo home_url('assets/icons/092-Play-Icon.png') ?>';
             icon_pause = '<?php echo home_url('assets/icons/093-Paus-Icon.png') ?>';
-            
+
             <?php if (true) : ?>
             jQuery(document).ready(function($) {
                 setTimeout(function() {
@@ -116,7 +116,7 @@
                 }, 200);
             });
             <?php endif; ?>
-            
+
     </script>
 
 <?php endif; ?>
