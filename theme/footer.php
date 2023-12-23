@@ -20,7 +20,7 @@
 
             <div class="clearfix">
 
-                <h3><?php pll_e('Annunci recenti') ?></h3>
+                <h3>Annunci recenti</h3>
                 <?php include '_bb-last.php'; ?>
 
             </div>

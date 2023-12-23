@@ -12,7 +12,7 @@ $loop = new WP_Query(array(
         )
     )
 ));
-    
+
 ?>
 
 <?php if ($loop->have_posts()) : while ($loop->have_posts()) : $loop->the_post(); ?>
@@ -20,14 +20,14 @@ $loop = new WP_Query(array(
         <div>
 
             <h2><?php the_title(); ?></h2>
-            
+
             <p class="meta">
-                <?php _e("Pubblicato il", "stitheme"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><strong><?php the_time(pll__('j F Y')); ?></strong></time> 
-                
+                <?php _e("Pubblicato il", "stitheme"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><strong><?php the_time('j F Y'); ?></strong></time>
+
                 <?php _e("da", "stitheme"); ?> <strong><?php the_author(); ?></strong>.
-                
+
                 <?php $date = DateTime::createFromFormat('Ymd', get_field('expiry_date')); ?>
-                <?php _e("Scadenza", "stitheme"); ?> <time datetime="<?php echo $date->format('Y-m-j'); ?>" pubdate><strong><?php echo date_i18n(pll__('j F Y'), $date->getTimestamp()); ?></strong></time>.
+                <?php _e("Scadenza", "stitheme"); ?> <time datetime="<?php echo $date->format('Y-m-j'); ?>" pubdate><strong><?php echo date_i18n('j F Y', $date->getTimestamp()); ?></strong></time>.
             </p>
 
             <?php the_content(); ?>
@@ -36,7 +36,7 @@ $loop = new WP_Query(array(
 
         </div>
 
-    <?php endwhile; ?>	
+    <?php endwhile; ?>
 
 <?php else : ?>
 

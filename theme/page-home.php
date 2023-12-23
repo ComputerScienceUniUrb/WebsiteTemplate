@@ -30,44 +30,6 @@
 
 <div id="content">
 
-    <?php if (count(@$elms) > 0) : ?>
-
-        <div class="fed-slider-container clearfix">
-            <div class="wrap">
-                <div class="eightcol first">
-                    <div id="fed_slider"></div>
-                </div>
-                <div id="fed_slider_text" class="fourcol last">
-                    <?php for ($i = 0; $i < count($elms); $i ++) : ?>
-                    <div id="fed_slider_text_<?php echo $i ?>"<?php echo $i != 0 ? ' style="display: none;" class="hidden"' : '' ?>>
-                            <h2><?php echo $elms[$i]['title'] ?></h2>
-                            <p><?php echo $elms[$i]['text'] ?></p>
-                        </div>
-                    <?php endfor; ?>
-
-                    <div class="buttons">
-                        <ul>
-                            <li class="fed-prev"><img src="<?php echo home_url('assets/icons/109-Left-arrow-Icon.png') ?>"  alt="Previous"></li>
-                            <li class="fed-play"><img src="<?php echo home_url('assets/icons/093-Paus-Icon.png') ?>" alt="Pause"></li>
-                            <li class="fed-next"><img src="<?php echo home_url('assets/icons/112-Right-arrow-Icon.png') ?>" alt="Next"></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    <?php endif; ?>
-
-    <div class="fed-slider-container clearfix">
-        <div class="wrap" style="font-size: 0">
-            <div class="first">
-                <video style="width: 100%; height: auto" controls autoplay muted width="960" height="540" poster="wp-content/uploads/informatica_scienza_e_tecnologia_promo_web.jpg">
-                    <source src="wp-content/uploads/informatica_scienza_e_tecnologia_promo_web.mp4">
-                </video>
-            </div>
-        </div>
-    </div>
-
     <div id="inner-content" class="wrap clearfix">
 
         <div id="main" class="twelve first clearfix" role="main">

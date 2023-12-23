@@ -76,7 +76,7 @@
                             <?php endif; ?>
                                     
                                     <p class="meta">
-                                        <?php _e("Pubblicato il", "stitheme"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><strong><?php the_time(pll__('j F Y')); ?></strong></time> 
+                                        <?php _e("Pubblicato il", "stitheme"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><strong><?php the_time('j F Y'); ?></strong></time> 
                                         <?php _e("da", "stitheme"); ?> <strong><?php the_author(); ?></strong> <?php //the_author_posts_link(); ?>
                                         <?php if (false) : ?>
                                             <span class="amp">&</span>

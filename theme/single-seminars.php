@@ -9,9 +9,9 @@
             $date_end = '';
             $n_dates = count($fields['date']);
             if ($n_dates > 1 && @$fields['date'][$n_dates - 1]['data']) {
-                $date_end = date_i18n(pll__('j F Y'), DateTime::createFromFormat('Ymd', $fields['date'][$n_dates - 1]['data'])->getTimestamp());
+                $date_end = date_i18n('j F Y', DateTime::createFromFormat('Ymd', $fields['date'][$n_dates - 1]['data'])->getTimestamp());
             }
-            $date = date_i18n(pll__('j F Y'), DateTime::createFromFormat('Ymd', $fields['date'][0]['data'])->getTimestamp()) . (@$date_end ? ' - ' . $date_end : '');
+            $date = date_i18n('j F Y', DateTime::createFromFormat('Ymd', $fields['date'][0]['data'])->getTimestamp()) . (@$date_end ? ' - ' . $date_end : '');
         ?>
     
     
@@ -61,7 +61,7 @@
                                 <?php if (!($date['data'] && $date['orario'])) continue ?>
                                 <tr>
                                     <td><?php echo $date['luogo'] ?></td>
-                                    <td><?php echo date_i18n(pll__('j F Y'), DateTime::createFromFormat('Ymd', $date['data'])->getTimestamp()) ?></td>
+                                    <td><?php echo date_i18n('j F Y', DateTime::createFromFormat('Ymd', $date['data'])->getTimestamp()) ?></td>
                                     <td><?php echo $date['orario'] ?></td>
                                     <td><?php echo $date['crediti'] ?></td>
                                 </tr>

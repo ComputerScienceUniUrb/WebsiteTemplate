@@ -74,13 +74,7 @@
                     
                     <div class="wrap">
                         <div class="eightcol first">
-                            <ul>
-                                <?php if (STI_LANG_MANU) : ?>
-                                    <?php pll_the_languages(); ?>
-                                <?php else : ?>
-                                    <li class="lang-item lang-item-2 lang-item-it current-lang"><a hreflang="it" href="/">Italiano</a></li>
-                                <?php endif; ?>
-                            </ul>
+                            
                         </div>
 
                         <div class="fourcol last">
@@ -102,19 +96,15 @@
 
                 <div id="inner-header" class="wrap clearfix">
 
-                    <?php if (false) : ?>
-                        <p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
-                    <?php endif; ?>
+					<div class="eightcol first">
+						<a href="https://informatica.uniurb.it/2010_2023/triennale/">
+							<img id="logo" src="<?php echo get_template_directory_uri(); ?>/images/cdl_informatica_applicata_old.png" alt="Logo del Corso di Laurea in Informatica Applicata" />
+						</a>
+					</div>
 
-                        <div class="eightcol first">
-                            <a href="https://informatica.uniurb.it/">
-                                <img id="logo" src="<?php echo get_template_directory_uri(); ?>/images/cdl_informatica_applicata.png" alt="Logo del Corso di Laurea in Informatica Applicata" />
-                            </a>
-                        </div>
+					<div class="fourcol last">
 
-                        <div class="fourcol last">
-
-                        </div>
+					</div>
 
                 </div> <!-- end #inner-header -->
 
